@@ -1,18 +1,26 @@
 /* Add CSS styling here */
 
+/*//////////// Font Import ////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+/*//////////// General ////////////////*/
+
+/* Add CSS styling here */
+
 /* Font Import */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Megrim&family=Nunito&family=Raleway:wght@600&display=swap'); */
 
 /* General Styles */
 
-/* *{
+*{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
-} */
+}
 
 /* // general */
 
@@ -44,7 +52,8 @@ body {
 /* // hero */
 
 .hero {
-	display: flex;
+    display: flex;
+    text-align: center;
 	flex-direction: column;
 	justify-content: space-between;
 	height: 100vh;
@@ -66,7 +75,12 @@ body {
 @media only screen and (min-width: 32em) { .hero-title { font-size: 16vh; } }	
 
 .hero-footer {
-	display: flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -137px;
+    margin: 0 auto;
+    width: 100%;
 	margin-bottom: 1em;
 }
 
