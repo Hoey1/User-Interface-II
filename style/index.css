@@ -14,13 +14,13 @@
 
 /* General Styles */
 
-*{
+/* *{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
-}
+} */
 
 /* // general */
 
@@ -88,7 +88,7 @@ body {
 	padding: .5em .67em;
 	color: white;
 	text-decoration: none;
-	border: .1em solid white;
+	border:  solid white;
 
 }
 	
@@ -97,8 +97,54 @@ body {
 	background-color: white;
 }
 	
-article {
-	max-width: 36em;
+.gallery {
+	max-width: 100%;
 	margin: 0 auto;
-	padding: 1em;
+	padding: 0% 2%;
 }	
+
+.gallery-display h2 {
+    display: flex;
+    justify-content: center;
+    padding: 4% 0%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-around;
+    padding: 5% 10%;
+}
+
+.flex-container a {
+    display: flex;
+    align-content: space-between;
+    width: 20%;
+    padding: 10% 0%;
+}
+
+.flex-container b {
+    display: flex;
+    align-content: space-between;
+    width: 20%;
+    padding: 10% 0%;
+}
+.flex-container c {
+    display: flex;
+    align-content: space-between;
+    width: 20%;
+    padding: 10% 0%;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 15vh;
+	box-sizing: border-box;
+	color: white;
+	background: url(https://images.unsplash.com/photo-1500417148159-68083bd7333a) center center no-repeat;
+	background-size: cover;
+}
